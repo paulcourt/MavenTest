@@ -47,7 +47,7 @@ public class PrimeNumbersTest {
 	    /**
 	     * Test of that infects, and reveals an unexpected result.
 	     */
-	    /*
+	   
 	    @Test
 	    public void testInfectReveal() {
 	        System.out.println("A test of infectReveal.");
@@ -59,5 +59,5 @@ public class PrimeNumbersTest {
 	        System.out.println(result);
 	        assertEquals("[2, 3, 5, 7, 11, 13, 17, 19]", result);
 	        
-	    }    */
+	    }    
 }
