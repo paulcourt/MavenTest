@@ -19,7 +19,6 @@ package primes_pc;
 	      boolean isPrime; // is this number a prime
 	      int status = 1;
 	      
-/*
 	      while (count <= n)
 	      {
 	         isPrime = true;
@@ -41,28 +40,6 @@ package primes_pc;
 	         number++;
 	      }
 	   }
-*/
-	      
-	  	for ( int i = 2 ; i <=n + 1 ;  )
-  		{
-     for ( int j = 2 ; j <= Math.sqrt(number) ; j++ )
-     {
-        if ( number%j == 0 )
-        {
-           status = 0;
-           break;
-        }
-     }
-     if ( status != 0 )
-     {
-        primes.add (number);
-        i++;
-     }
-     status = 1;
-     number++;
-  		}
-}
-
 
 	   public Iterator<Integer> iterator() 
 	   { 
