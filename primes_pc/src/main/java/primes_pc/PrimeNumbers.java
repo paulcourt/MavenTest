@@ -30,14 +30,12 @@ package primes_pc;
 	               break; // for loop
 	            }
 	         }
-	         if (isPrime && (number % 10 != 9)) { // THIS IS THE FAULT!!!
+	         if (isPrime) {
 	            primes.add (number);
 
 	            count++;
 	         }
-	         if (number%10 == 9)
-	             System.out.println("****the number ends in 9****");
-	         
+		      
 	         number++;
 	      }
 	   }
